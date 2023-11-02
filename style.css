@@ -469,8 +469,6 @@ li {
   grid-column-gap: 40px;
   grid-row-gap: 50px;
   margin: 0 auto;
-
-  
 }
 
 .project {
@@ -479,7 +477,6 @@ li {
   position: relative;
   overflow: hidden;
   height: 400px;
-  
 }
 
 .project img {
@@ -489,7 +486,6 @@ li {
   filter: grayscale(100%);
   will-change: transform;
   transition: transform 0.3s ease-out;
- 
 }
 
 .project:hover img {
@@ -507,7 +503,6 @@ li {
   padding: 15px;
   transition: all 0.4s ease-in-out, bottom 0.4s ease-in-out;
   opacity: 0.9;
- 
 }
 
 .project:hover .bloc-content-show {
@@ -515,7 +510,6 @@ li {
   bottom: 0;
   opacity: 0.8;
 }
-
 
 #portfolio .bloc-content-show h3 {
   font-size: 1.7rem;
@@ -532,15 +526,16 @@ li {
 
 .bloc-content-show .icon_content_show a {
   color: #000;
-  transition: transform 0.2s ease-in; 
+  transition: transform 0.2s ease-in;
 }
 
 .bloc-content-show .icon_content_show a:hover {
   transform: scale(1.2);
 }
 
-.bloc-content-show .icon_content_show .fa-solid, .bloc-content-show .icon_content_show .fa-brands {
-  margin: 0 5px
+.bloc-content-show .icon_content_show .fa-solid,
+.bloc-content-show .icon_content_show .fa-brands {
+  margin: 0 5px;
 }
 
 /* /////////------------------- SECTION CV ----------------------------///// */
@@ -558,7 +553,9 @@ li {
   gap: 25px;
   color: #fafafa;
 }
-
+.deux {
+  background: none;
+}
 .section_cv p {
   font-size: 1.7rem;
   color: #fafafa;
@@ -572,6 +569,9 @@ li {
   margin-left: 10px;
 }
 
+.color {
+  color: #292929;
+}
 .section_cv button {
   border: 2px transparent solid;
   background-color: #d68da2;
@@ -586,11 +586,11 @@ li {
   letter-spacing: 1px;
 }
 
-.section_cv button:hover {
+/* .section_cv button:hover {
   border: 2px #d68da2 solid;
   background-color: #000;
   color: #d68da2;
-}
+} */
 
 .section_cv .fa-circle-chevron-right {
   margin-left: 5px;
@@ -601,8 +601,6 @@ li {
 .section_cv button:hover .fa-circle-chevron-right {
   transform: translateX(5px);
 }
-
-
 
 /* /////////------------------- SECTION CONTACT ----------------------------///// */
 
